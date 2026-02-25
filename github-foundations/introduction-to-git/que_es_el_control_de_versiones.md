@@ -1,0 +1,120 @@
+## ¿Qué es el control de versiones?
+
+Un **sistema de control de versiones (VCS, Version Control System)** es una herramienta que registra y gestiona los cambios realizados en un conjunto de archivos a lo largo del tiempo.
+
+Su propósito principal es permitirte:
+
+- Recuperar versiones anteriores de archivos individuales o del proyecto completo.
+- Saber qué cambió, cuándo cambió y quién lo cambió.
+- Permitir que varias personas trabajen simultáneamente en el mismo proyecto —incluso en los mismos archivos— sin sobrescribir el trabajo de los demás.
+
+El término **Software Configuration Management (SCM)** suele usarse como sinónimo de VCS. Técnicamente, el control de versiones es una parte del SCM, que abarca prácticas más amplias de gestión de cambios en sistemas de software.
+
+Aunque es común en desarrollo de software, un VCS también puede utilizarse para:
+
+- Libros
+- Documentación técnica
+- Tutoriales
+- Proyectos académicos
+- Contenido web
+
+---
+
+## ¿Qué puedes hacer con un VCS?
+
+Con un sistema de control de versiones puedes:
+
+- Ver el historial completo de cambios del proyecto.
+- Asociar un mensaje descriptivo a cada cambio.
+- Recuperar versiones anteriores de archivos o del proyecto completo.
+- Crear **ramas (branches)** para trabajar en cambios experimentales o nuevas funcionalidades.
+- Trabajar en múltiples líneas de desarrollo simultáneamente.
+- Fusionar cambios seleccionados hacia una rama principal.
+- Crear **etiquetas (tags)** para marcar versiones importantes, como lanzamientos (releases).
+
+Esto convierte al historial del proyecto en algo estructurado, auditable y reversible.
+
+---
+
+## Git como sistema de control de versiones
+
+**Git** es un VCS:
+
+- Rápido
+- Distribuido
+- Altamente escalable
+- Gratuito y de código abierto
+
+Fue creado por **Linus Torvalds**, el mismo autor del kernel de Linux.
+
+Git se ha convertido en el estándar de facto en la industria debido a su modelo distribuido, rendimiento y flexibilidad.
+
+---
+
+## Control de versiones distribuido
+
+Los sistemas anteriores como:
+
+- CVS
+- Subversion (SVN)
+- Perforce
+
+funcionaban bajo un modelo **centralizado**: un único servidor almacenaba todo el historial del proyecto.
+
+Este modelo tiene una desventaja crítica: el servidor central se convierte en un **single point of failure**. Si falla, nadie puede trabajar.
+
+### ¿Qué hace diferente a Git?
+
+Git es un sistema **distribuido**.
+
+Eso significa que:
+
+- Cada desarrollador tiene una copia completa del historial del proyecto.
+- Puedes hacer commits sin conexión a internet.
+- Puedes trabajar localmente y sincronizar cuando tengas conexión.
+- Si el servidor remoto falla, el historial no se pierde.
+
+Técnicamente, Git ni siquiera requiere un servidor central. Los repositorios pueden intercambiarse manualmente, aunque en la práctica se usan plataformas como GitHub, GitLab o Bitbucket.
+
+Este diseño distribuido es una de las razones por las que Git es tan resiliente y eficiente.
+
+---
+
+## La línea de comandos de Git
+
+Existen múltiples interfaces gráficas (GUI) para Git, como:
+
+- GitHub Desktop
+- Interfaces integradas en editores como Visual Studio Code
+
+Sin embargo:
+
+- No todas implementan el 100% de las funcionalidades de Git.
+- Cada GUI abstrae conceptos importantes.
+- Algunas limitan operaciones avanzadas.
+
+Por eso, aprender la **línea de comandos de Git** es fundamental.
+
+La interfaz de línea de comandos:
+
+- Funciona igual en cualquier sistema operativo.
+- Expone todas las capacidades de Git.
+- Permite resolver problemas complejos.
+- Ayuda a comprender qué está ocurriendo internamente.
+
+Muchos desarrolladores que dependen únicamente de una GUI terminan recurriendo a la línea de comandos cuando necesitan resolver conflictos, recuperar estados o entender errores avanzados.
+
+---
+
+## En resumen
+
+El control de versiones no es solo una herramienta para guardar archivos.  
+Es un sistema para:
+
+- Gestionar cambios
+- Colaborar de forma segura
+- Mantener trazabilidad
+- Experimentar sin riesgo
+- Recuperarse de errores
+
+Y Git es actualmente la implementación más poderosa y utilizada de este concepto.
