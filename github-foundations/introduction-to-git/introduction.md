@@ -24,3 +24,14 @@ En este módulo aprenderás:
 Es normal que Git parezca complejo al inicio. Internamente maneja objetos, referencias y un grafo de commits, lo que puede resultar abstracto. Sin embargo, una vez que comprendes su modelo mental, Git deja de ser confuso y se convierte en una herramienta extremadamente poderosa.
 
 Aprender Git no es solo aprender comandos. Es aprender a trabajar de forma profesional en entornos colaborativos.
+
+
+## Cómo funciona Git
+
+Una forma de ver cómo funciona git es mediante el siguiente ejemplo: Tenemos un arbol (repositorio) el cual tiene ramas (branches) y cada rama tiene hojas (commits). Git permite gestionar todo el arbol agregando y quitando ramas, hojas , etc. 
+
+Échale un vistazo a la siguiente imagen, cada circulo hace referencia a un *commit*
+
+![alt](./assets/arbol.png)
+
+> **Tip:**  Los nombres de las ramas pueden ser los que quieras; sin embargo, existen convenciones para estandarizarlos, las cuales veremos en próximos capítulos.
