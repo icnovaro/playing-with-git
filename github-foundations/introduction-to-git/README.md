@@ -4,7 +4,14 @@ En este módulo comenzarás a construir una base sólida en **control de version
 
 ---
 
-## Antes de comenzar: instala Git
+| Contenido |
+|---|
+| [0. Instalación ](https://github.com/icnovaro/playing-with-git/blob/trunk/github-foundations/introduction-to-git/README.md#antes-de-comenzar-instala-git)|
+| [1. Introducción](https://github.com/icnovaro/playing-with-git/blob/trunk/github-foundations/introduction-to-git/1.introduction.md)|
+| [2. ¿Qué es el control de versiones?](https://github.com/icnovaro/playing-with-git/blob/trunk/github-foundations/introduction-to-git/2.que_es_el_control_de_versiones.md)|
+| [3. ¿Cómo funciona?](https://github.com/icnovaro/playing-with-git/blob/trunk/github-foundations/introduction-to-git/3.como_funciona.md)|
+
+## 1. Instalación
 
 Para poder realizar los ejercicios necesitas tener Git instalado en tu sistema.
 
